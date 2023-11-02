@@ -2,7 +2,8 @@
 
 :root {
     --primary:#2A2A30;
-    --secondary: #BD3625;
+    --secondary: #1872f0;
+    --third: #547bb3;
     --lightdark:rgb(110,104,101,0.1);
     --light: #F0F6FF;
     --clean:#fff;
@@ -882,7 +883,7 @@ h6,
     align-items: center;
     flex-direction: column;
     min-height: 10vh;
-    background-color: #412e2e;
+    background:linear-gradient(to bottom right, var(--secondary),var(--third),var(--light),var(--light),var(--third), var(--secondary));
 }
 
 .scroll_tech .scroll{
